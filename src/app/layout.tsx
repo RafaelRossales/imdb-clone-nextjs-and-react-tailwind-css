@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/header";
 import Providers  from "@/app/providers/Providers"
 import NavBar from "@/components/navbar/NavBar"
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import Error from "./error";
 
 const inter = Inter({ subsets: ["latin"] });
 
